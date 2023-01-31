@@ -1,0 +1,45 @@
+.caixa{
+    margin: 0 auto; 
+    background: #B0E0E6; 
+    padding: 50px; 
+    width:  300px;
+    min-height: 100px;
+    height: auto;
+    text-align: center;
+    border-radius:  10px;
+    /* box-shadow: 1px 1px 50px #000; */
+    border:  1px solid #ffff;
+    margin-top:  50px;
+    font-family:courier,arial,helvetica;
+}
+
+
+.form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.button{
+    margin: 5px;
+    padding: 10px;
+    width: 45px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    border:  1px solid rgb(0, 0, 0);
+}
+
+input[type="text"], textarea {
+    background-color : #ffffff; 
+}
+
+body {
+        background-color: #000000;
+}
